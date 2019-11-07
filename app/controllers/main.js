@@ -1,6 +1,12 @@
 var nguoiDungService = new NguoiDungService();
 getListUser();
 
+function themNguoiDungTrenGit() {
+    console.log("thêm người dùng");
+    
+}
+
+
 getEle("btnThemNguoiDung").addEventListener("click", function () {
     var title = "Them Nguoi Dung";
     // getclass thì phải dùng mảng
