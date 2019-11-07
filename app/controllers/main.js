@@ -1,4 +1,10 @@
 var nguoiDungService = new NguoiDungService();
+
+function themTestGit() {
+    console.log("Thêm người dùng");
+    
+}
+
 getListUser();
 
 getEle("btnThemNguoiDung").addEventListener("click", function () {
